@@ -1,0 +1,305 @@
+    1  pwd
+    2  mkdir -p Learning_unix/Outer_directory/Inner_directory
+    3  pwd
+    4  ls/ubuntu/
+    5  ls /ubuntu/
+    6  cd /home
+    7  ls /ubuntu
+    8  ls \ubuntu
+    9  ls \ubuntu/
+   10  cd /
+   11  pwd
+   12  cd home
+   13  cd ubuntu
+   14  clear
+   15  cd /home/ubuntu/
+   16  cd Learning_unix/
+   17  cd ..
+   18  pwd
+   19  cd ..
+   20  cd ../..
+   21  pwd
+   22  cd /home/ubuntu/
+   23  cd ../..
+   24  pwd
+   25  cd ../../../Learning_unix
+   26  cd ../../Learning_unix
+   27  cd home/ubuntu/Learning_unix
+   28  cd/temp
+   29  cd /
+   30  pwd
+   31  cd ~
+   32  pwd
+   33  cd 
+   34  pwd
+   35  cd /
+   36  cd ~/Learning_unix
+   37  cd /Outer_directory
+   38  ls /Outer_directory
+   39  ls /Learning_unix
+   40  pwd
+   41  ls /
+   42  ls /Learning_unix
+   43  clear
+   44  pwd
+   45  cd ~/Outer_directory
+   46  cd ~Learning_unix/Outer_directory
+   47  cd ~Learning_unix/Outter_directory
+   48  mkdir - p /Outer_directory/Inner_directory
+   49  mkdir Outer_directory
+   50  cd Outer_directory
+   51  ls /Outer_directory
+   52  ls \Outer_directory
+   53  cd Outer_directory
+   54  cd Inner_directory
+   55  ls ../../
+   56  cd ../../
+   57  ls -l /home
+   58  ls -l 
+   59  ls -R
+   60  clear
+   61  cd
+   62  ls -R
+   63  ls -l -t -r
+   64  ls -lh
+   65  man ls
+   66  man cd
+   67  man man
+   68  cd ~/Learning_unix/Outer_directory/
+   69  rmdir Inner_directory/
+   70  cd ..
+   71  rmdir Outer_directory/
+   72  ls
+   73  touch heaven.txt
+   74  touch earth.txt
+   75  ls
+   76  mkdir Temp
+   77  mv heaven.txt  Temp/
+   78  mv earth.txt  Temp/
+   79  ls
+   80  rmdir p
+   81  ls
+   82  ls Temp/
+   83  ?.txt Temp/
+   84  ? Temp/
+   85  mv ? Temp/
+   86  touch hp.txt
+   87  ls
+   88  mv ? Temp/
+   89  ls
+   90  rmdir *.txt
+   91  del *.txt
+   92  touch rags
+   93  ls
+   94  mv rags Temp/riches
+   95  ls Temp/
+   96  mv Temp/riches Temp/rags
+   97  ls Temp/
+   98  mkdir Temp2
+   99  mv Temp2 Temp
+  100  ls Temp/
+  101  mv Temp3
+  102  mv Temp3 Learning_unix
+  103  cd ../
+  104  mv Temp3 Learning_unix
+  105  mkdir Temp3
+  106  mv Temp3 Learning_unix
+  107  ls Learning_unix/
+  108  rmdir Temp3
+  109  rmdir Learning_unix/Temp3
+  110  ls  Learning_unix/
+  111  rm Learning_unix/*.txt
+  112  ls  Learning_unix/
+  113  cd Learning_unix/
+  114  ls Temp/
+  115  cd Temp
+  116  rm -i earth.txt  heaven.txt  rags 
+  117  ls
+  118  cd ../
+  119  rmdir Temp/
+  120  rmdir Temp
+  121  rm -i Temp
+  122  ls Temp/
+  123  rmdir Temp/Temp2
+  124  rmdir Temp
+  125  ls Temp/
+  126  rmdir Temp/-
+  127  ls Temp/
+  128  rmdir Temp/
+  129  ls
+  130  pwd
+  131  ls Learning_unix
+  132  ls Learning_unix/
+  133  cd ../
+  134  ls Learning_unix/
+  135  cd Learning_unix/
+  136  touch file1
+  137  cp file1 file2
+  138  ls
+  139  touch ~/file3
+  140  ls ~
+  141  cp ~/file3 .
+  142  ls
+  143  clear
+  144  logout
+  145  cd 
+  146  ls
+  147  cd Learning_unix/
+  148  ls
+  149  cd git-basic-exercises/
+  150  ls
+  151  rm cat\ README.md 
+  152  ls
+  153  git branch
+  154  git branch mk
+  155  git branch
+  156  rm mk
+  157  rm branch mk
+  158  rm git branch mk 
+  159  git branch
+  160  git branch -d mk
+  161  git branch
+  162  git branch milkshake-flavours
+  163  git branch
+  164  git branch milk-flavours
+  165  branch
+  166  git branch
+  167  git branch -d milk-flavours
+  168  git branch
+  169  git branch milkshake-flavours
+  170  exit
+  171  pwd
+  172  ls ubuntu
+  173  ls \ubuntu
+  174  ls ubuntu\
+  175  cd
+  176  pwd
+  177  ls
+  178  rm file3
+  179  ls
+  180  cd Learning_unix/
+  181  ls
+  182  cd git-basic-exercises/
+  183  ls
+  184  git branch
+  185  git milkshake-flavours
+  186  git --help
+  187  git checkout milkshake-flavours 
+  188  git branch
+  189  clear
+  190  git branch
+  191  nano milkshakes.md
+  192  git status
+  193  git commit -m "added initial flavours"
+  194  git add milkshakes.md 
+  195  git commit -m "added initial flavours"
+  196  git log
+  197  git checkout master
+  198  git branch history
+  199  git checkout history 
+  200  git log
+  201  git branch
+  202  history > history.txt
+  203  git add history.txt 
+  204  git commit -m "added history"
+  205  git log
+  206  git checkout milkshake-flavours 
+  207  git log
+  208  git checkout master
+  209  git log
+  210  clear
+  211  git status
+  212  nano README.md 
+  213  git add README.md 
+  214  git commit -m 'random readme changes'
+  215  git checkcout history
+  216  git checkout history
+  217  cat cat README.md 
+  218  rm README.md 
+  219  echo 'booya' > READ.md
+  220  cat READ.md 
+  221  git rename READ.md READMe.md
+  222  rm READ.md 
+  223  echo 'booya' > README.md
+  224  git add README.md 
+  225  git commit -m 'rewrote readme'
+  226  git status
+  227  git log
+  228  clear
+  229  git checkout master
+  230  git log
+  231  git checkout milkshake-flavours 
+  232  ls
+  233  git log
+  234  git checkout history
+  235  ls
+  236  git log
+  237  clear
+  238  git branch
+  239  git checkout
+  240  git brach
+  241  git branch
+  242  git checkout master 
+  243  git branch
+  244  git branch history -d
+  245  git branch -d history
+  246  git branch -D history
+  247  git branch
+  248  git branch -D milkshake-flavours 
+  249  git branch
+  250  git branch -D master
+  251  cd ../
+  252  git branch -D master
+  253  git branch
+  254  cd git-basic-exercises/
+  255  git branch
+  256  clear
+  257  git --help
+  258  git reset master
+  259* git 
+  260  git reset --hard HEAD^
+  261  git log
+  262  git commit --amend -m 'third commit' 
+  263  git log
+  264  git branch -m master main
+  265  git branch
+  266  git log
+  267  clear
+  268  ls
+  269  rm cat README.md 
+  270  rm 'cat README.md' 
+  271  ls
+  272  git branch
+  273  ls
+  274  git restore README.md
+  275  ls
+  276  git branch
+  277  ls
+  278  clear
+  279  cat README.md 
+  280  git branch milkshake-flavours
+  281  git branch switch
+  282  gir branch
+  283  git branch
+  284  git branch -D switch
+  285  git branch
+  286  git checkout milkshake-flavours 
+  287  git branch
+  288  clear
+  289  nano milkshakes.md
+  290  cat milkshakes.md 
+  291  git branch
+  292  git add milkshakes.md 
+  293  git commit -m 'added initial flavours'
+  294  git log
+  295  git status
+  296  git switch main
+  297  git branch
+  298  ls
+  299  git branch
+  300  clear
+  301  git branch history
+  302  git checkout history 
+  303  ls
+  304  git branch
+  305  history > history.txt
